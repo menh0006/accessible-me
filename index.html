@@ -55,12 +55,18 @@
         <div class="contact-section">
           <h2>Contact Us</h2>
           <form action="thanks.html">
-            <label>Full Name</label>
-            <input type="text" placeholder="Full Name">
-            <input type="text" placeholder="Email">
-            <input type="text" placeholder="Subject">
-            Your Message
-            <textarea></textarea>
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" placeholder="John Smith">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="johnsmith@gmail.com">
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Reason For Contacting Us">
+
+            <label for="yourmessage">Your Message</label>
+            <textarea id="yourmessage" name="message" placeholder="Hi, I would like to..."></textarea>
+
             <button type="submit">Send</button>
           </form>
         </div>
